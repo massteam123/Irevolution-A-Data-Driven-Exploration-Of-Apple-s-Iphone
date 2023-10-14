@@ -1,0 +1,22 @@
+const data = [
+  { Year: 2008, 'Units sold (mm)': 11.6, 'Revenue Generated': 1.8 },
+  { Year: 2009, 'Units sold (mm)': 20.7, 'Revenue Generated': 13 },
+  { Year: 2010, 'Units sold (mm)': 39.9, 'Revenue Generated': 25.1 },
+  // Add more data objects here
+];
+
+function calculateAverageRevenuePerUnitSold(data) {
+  let totalRevenue = 0;
+  let totalUnitsSold = 0;
+
+  for (const entry of data) {
+    totalRevenue += entry['Revenue Generated'];
+    totalUnitsSold += entry['Units sold (mm)'];
+  }
+
+  const averageRevenuePerUnitSold = totalRevenue / totalUnitsSold;
+  return averageRevenuePerUnitSold;
+}
+
+const averageRevenuePerUnitSold = calculateAverageRevenuePerUnitSold(data);
+console.log('Average Revenue per Unit Sold: ' + averageRevenuePerUnitSold.toFixed(2));

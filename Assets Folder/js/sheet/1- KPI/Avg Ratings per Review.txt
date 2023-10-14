@@ -1,0 +1,30 @@
+// Sample data representing products
+const products = [
+    { "Number of Ratings": 3431, "Number of Reviews": 356 },
+    { "Number of Ratings": 3431, "Number of Reviews": 356 },
+    // Add more product objects here
+];
+
+// Function to calculate the average ratings per review
+function calculateAverageRatingsPerReview(products) {
+    // Initialize variables to store the total ratings and total reviews
+    let totalRatings = 0;
+    let totalReviews = 0;
+
+    // Calculate the sum of ratings and reviews for all products
+    for (const product of products) {
+        totalRatings += product["Number of Ratings"];
+        totalReviews += product["Number of Reviews"];
+    }
+
+    // Calculate the average ratings per review
+    const averageRatingsPerReview = totalRatings / totalReviews;
+
+    return averageRatingsPerReview;
+}
+
+// Call the function to calculate the average ratings per review
+const averageRatingsPerReview = calculateAverageRatingsPerReview(products);
+
+// Print the result
+console.log("Average Ratings Per Review: " + averageRatingsPerReview);
