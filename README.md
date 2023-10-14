@@ -1,6 +1,6 @@
 # Irevolution-A-Data-Driven-Exploration-Of-Apple-s-Iphone
 
-Dashboard_1 Public Link = https://public.tableau.com/views/GuidedProjectdashboard/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link
+Dashboard_1 Public Link = https://public.tableau.com/views/Dashboard1_16973144571730/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link
 
 Dashboard_2 Public Link = https://public.tableau.com/views/dashboard2_16973127499960/Dashboard2?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link
 
