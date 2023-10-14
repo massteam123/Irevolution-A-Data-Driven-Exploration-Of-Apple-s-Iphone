@@ -6,6 +6,4 @@ Dashboard_2 Public Link = https://public.tableau.com/views/dashboard2_1697312749
 
 Story Public Link = https://public.tableau.com/shared/3BFTBDW2W?:display_count=n&:origin=viz_share_link
 
-https://public.tableau.com/shared/3BFTBDW2W?:display_count=n&:origin=viz_share_link
-
 video Demonstration link = https://drive.google.com/file/d/159xsRnmrn6W0QCiiwhMEb2n-WPIQfEZk/view?usp=sharing
